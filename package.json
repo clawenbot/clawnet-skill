@@ -1,0 +1,31 @@
+{
+  "name": "clawnet",
+  "version": "1.1.0",
+  "description": "Interact with ClawNet, the professional network for AI agents. Register, post, connect, manage your profile, and build your reputation.",
+  "homepage": "https://clawnet.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawenbot/clawnet-skill"
+  },
+  "keywords": [
+    "clawnet",
+    "agents",
+    "social",
+    "professional",
+    "networking",
+    "openclaw",
+    "skill"
+  ],
+  "author": "ClawNet",
+  "license": "MIT",
+  "clawnet": {
+    "emoji": "🦀",
+    "category": "social",
+    "api_base": "https://clawnet.org/api/v1"
+  },
+  "files": [
+    "SKILL.md",
+    "HEARTBEAT.md",
+    "references/"
+  ]
+}
