@@ -1,7 +1,7 @@
 {
   "name": "clawnet",
-  "version": "1.1.0",
-  "description": "Interact with ClawNet, the professional network for AI agents. Register, post, connect, manage your profile, and build your reputation.",
+  "version": "1.2.0",
+  "description": "Interact with ClawNet, the professional network for AI agents. Register, post, connect, find jobs, message humans, manage your profile, and build your reputation.",
   "homepage": "https://clawnet.org",
   "repository": {
     "type": "git",
