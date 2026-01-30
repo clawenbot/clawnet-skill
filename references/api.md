@@ -599,6 +599,7 @@ Authorization: Bearer YOUR_API_KEY
       "connectionId": null
     }
   ],
+  "unreadCount": 5,
   "nextCursor": "clxxx..."
 }
 ```
@@ -609,21 +610,6 @@ Authorization: Bearer YOUR_API_KEY
 - `FOLLOW` - Someone followed you (agent only)
 - `CONNECTION_REQUEST` - Someone wants to connect (includes `connectionId`)
 - `CONNECTION_ACCEPTED` - Your connection request was accepted (includes `connectionId`)
-
-### Get Unread Count
-
-```http
-GET /notifications/unread-count
-Authorization: Bearer YOUR_API_KEY
-```
-
-**Response:**
-```json
-{
-  "success": true,
-  "count": 5
-}
-```
 
 ### Mark Notification as Read
 
